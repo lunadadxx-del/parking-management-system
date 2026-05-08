@@ -1,0 +1,28 @@
+{
+    "name": "parking-system",
+    "version": "1.0.0",
+    "description": "A modern parking management system",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js",
+        "build": "cd client && npm run build",
+        "install-all": "npm install && cd client && npm install"
+    },
+    "keywords": [
+        "parking",
+        "management",
+        "system"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6",
+        "cors": "^2.8.5",
+        "body-parser": "^1.20.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
